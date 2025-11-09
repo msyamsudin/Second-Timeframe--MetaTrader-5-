@@ -2,7 +2,6 @@
 
 ![Version](https://img.shields.io/badge/version-1.04-blue)
 ![MT5](https://img.shields.io/badge/MT5-compatible-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 Indikator MetaTrader 5 untuk **candlestick berbasis detik** (1-59 detik). Cocok untuk scalping dan trading frekuensi tinggi.
 
@@ -12,7 +11,6 @@ Indikator MetaTrader 5 untuk **candlestick berbasis detik** (1-59 detik). Cocok 
 - Update OHLC real-time
 - Timer countdown visual
 - Tampilan di window terpisah
-- Sistem buffer performa tinggi
 
 ## Instalasi
 
@@ -31,22 +29,6 @@ Indikator MetaTrader 5 untuk **candlestick berbasis detik** (1-59 detik). Cocok 
 | InpMaxBars | 200 | Maksimal history |
 | InpShowInfo | true | Tampilkan info panel |
 
-## Penggunaan
-
-**Scalping (3 detik):**
-```mql5
-InpSecondPeriod = 3
-```
-
-**News Trading (1 detik):**
-```mql5
-InpSecondPeriod = 1
-```
-
-**Konfirmasi Entry (10 detik):**
-```mql5
-InpSecondPeriod = 10
-```
 
 ## Kebutuhan Sistem
 
@@ -67,4 +49,4 @@ InpSecondPeriod = 10
 
 ---
 
-🐛 [Laporkan Issue](https://github.com/msyamsudin/second-precision-tf/issues)
+🐛 [Laporkan Issue](https://github.com/msyamsudin/MetaTrader-5-Indicator-Second-Timeframe/issues)
